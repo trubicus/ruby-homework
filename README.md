@@ -10,6 +10,6 @@ Some of my favourite programming languages are
  - *C*
 
 My favourite dog breed is any dog
-[any dog](http://www.legendsdogtraining.com/uploads/1/2/3/5/12354816/4532995.jpg?544)
+![any dog](http://www.legendsdogtraining.com/uploads/1/2/3/5/12354816/4532995.jpg?544)
 
 

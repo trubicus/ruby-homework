@@ -9,7 +9,7 @@ def print_board(board)
   end
 end
 
-puts "Wellcome to Tic Tac Toe game"
+puts "Welcome to the Tic Tac Toe game"
 player = 'O'
 
 loop do

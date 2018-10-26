@@ -71,8 +71,9 @@ def add_employee(employees)
     employee = OfficeManager.new(full_name, id, office)
   else
     print_help_add
+    return
   end
-    employees << employee
+  employees << employee
 end
 
 def view_employees(employees)

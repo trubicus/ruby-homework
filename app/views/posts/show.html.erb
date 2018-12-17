@@ -24,6 +24,17 @@
   <strong>Post a comment:</strong>
   <%= simple_form_for Comment.new do |f| %>
     <%= f.input :content %>
+    <div>
+      <p><strong>Prove you are a human</strong></p>
+      <% min = 100 %>
+      <% max = 999 %>
+      <% n = rand(min..max) %>
+      <% x = rand(n/2..max) %>
+      <% y = rand(n/2..max) %>
+      <% z = x + y - n%>
+      <%= hidden_field_tag 'captcha[n]', n%>
+      <span> <%= x %> + <%= y %> - <%= z %> = <%= number_field :captcha, :answer %> </span>
+    </div>
     <%= f.button :submit %>
   <% end %>
 </p>
